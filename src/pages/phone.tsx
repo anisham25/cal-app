@@ -1,4 +1,3 @@
-// src/pages/phone.tsx
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 
