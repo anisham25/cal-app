@@ -8,7 +8,6 @@ export default function PhonePage() {
   useEffect(() => {
     const phoneRegex = /^\+?\d{10,15}$/;
     if (phoneRegex.test(phone)) {
-      setIsValid(true);
       router.push("/finish"); // ✅ Redirects to finish/share page
     }
   }, [phone, router]);
