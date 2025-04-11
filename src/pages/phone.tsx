@@ -3,7 +3,6 @@ import { useRouter } from "next/router";
 
 export default function PhonePage() {
   const [phone, setPhone] = useState("");
-  const [isValid, setIsValid] = useState(false);
   const router = useRouter();
 
   useEffect(() => {
